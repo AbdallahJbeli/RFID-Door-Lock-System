@@ -7,20 +7,6 @@ This repository contains two Arduino projects using the **RC522 RFID reader**, *
 
 ---
 
-## 📂 Project Structure
-
-RFID-Door-Lock-System/
-│
-├── code1_rfid_scan/ → Basic RFID card scanner
-│ └── rfid_scan.ino
-│
-├── code2_door_lock/ → Door lock control with authorized UID
-│ └── door_lock.ino
-│
-└── README.md → Documentation
-
----
-
 ## ⚙️ Hardware Requirements
 
 - Arduino Uno (or compatible)
@@ -67,7 +53,7 @@ RFID-Door-Lock-System/
 
 ## 🖥️ Code 1: RFID Tag Scanner
 
-📌 Location: `code1_rfid_scan/rfid_scan.ino`
+📌 Location: `One-RFID-Scan/rfid_scan.ino`
 
 ### 🔹 How it works:
 
@@ -86,7 +72,7 @@ RFID-Door-Lock-System/
 
 ## 🖥️ Code 2: RFID Door Lock System
 
-📌 Location: `code2_door_lock/door_lock.ino`
+📌 Location: `Two-Door-Lock-System/door_lock.ino`
 
 ### 🔹 How it works:
 
